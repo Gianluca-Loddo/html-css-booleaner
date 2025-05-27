@@ -1,7 +1,7 @@
 /*imposto lo stile dell'header - non ha bisogno di essere richiamato con il punto . o il cancelletto #*/
 header {
     background-color: #4ea0ff;
-    /* il del colore l'ho ottenuto analizzando l'immagine con un'estensione di Chrome ColorZilla */
+    /* il colore l'ho ottenuto analizzando l'immagine con un'estensione di Chrome ColorZilla */
     background-image: url(../img/pattern.png);
     /*si usa url per inserire il percorso dell'immagine*/
     background-size: 20%;
@@ -11,6 +11,9 @@ header {
 /* per impostare lo stile dell'ID logo ho dovuto richiamare lo stesso usando il cancelletto prima del nome #*/
 #logo {
     width: 200px;
+    /*specificando solo la  automanticamente si ridimensiona anche l'altezza*/
     padding-top: 40px;
-    padding-left: 20px;
+    /*distanza dall'alto misurata con PixelRuler di PowerToys Windows*/
+    padding-left: 8px;
+    /*distanza da sinistra*/
 }
