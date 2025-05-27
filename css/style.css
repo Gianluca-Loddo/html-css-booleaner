@@ -1,6 +1,11 @@
 /*imposto lo stile dell'header - non ha bisogno di essere richiamato con il punto . o il cancelletto #*/
 header {
-    background-color: rgb(67, 126, 215); /* il gradiente del colore rgb l'ho ottenuto analizzando l'immagine con un servizio online */
+    background-color: #4ea0ff;
+    /* il del colore l'ho ottenuto analizzando l'immagine con un'estensione di Chrome ColorZilla */
+    background-image: url(../img/pattern.png);
+    /*si usa url per inserire il percorso dell'immagine*/
+    background-size: 20%;
+    /*di default, se non viene specificato, l'immagine si ripete e specificando la percentuale riduciamo la dimensione*/
 }
 
 /* per impostare lo stile dell'ID logo ho dovuto richiamare lo stesso usando il cancelletto prima del nome #*/
