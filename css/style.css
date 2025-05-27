@@ -1,0 +1,11 @@
+/*imposto lo stile dell'header - non ha bisogno di essere richiamato con il punto . o il cancelletto #*/
+header {
+    background-color: rgb(67, 126, 215); /* il gradiente del colore rgb l'ho ottenuto analizzando l'immagine con un servizio online */
+}
+
+/* per impostare lo stile dell'ID logo ho dovuto richiamare lo stesso usando il cancelletto prima del nome #*/
+#logo {
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
