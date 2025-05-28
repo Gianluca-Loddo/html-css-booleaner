@@ -53,7 +53,6 @@ h1 {
     font-size: 10px;
 }
 
-
 .testo-evidenziato {
     background-color: yellow;
 }
@@ -63,4 +62,12 @@ ul {
     /* i pallini non fanno parte del contenuto del <li>, ma sono un elemento di stile visuale posizionato all’esterno
    Il contenuto del <li> parte dal bordo sinistro, impostando padding 0 Il pallino è ancora fuori dal contenuto, ma...
    ... non ha più spazio per essere visualizzato!*/
+}
+
+.head_table{
+
+}
+
+.riga_azzurra {
+    
 }
