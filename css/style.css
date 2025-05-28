@@ -4,14 +4,14 @@ header {
     /* il colore l'ho ottenuto analizzando l'immagine con un'estensione di Chrome ColorZilla */
     background-image: url(../img/pattern.png);
     /*si usa url per inserire il percorso dell'immagine*/
-    background-size: 20%;
-    /*di default, se non viene specificato, l'immagine si ripete e specificando la percentuale riduciamo la dimensione*/
+    background-size: 29%;
+    /*di default, se non viene specificato, l'immagine si ripete e specificando la percentuale aumentiamo o riduciamo la dimensione*/
 }
 
 /* per impostare lo stile dell'ID logo ho dovuto richiamare lo stesso usando il cancelletto prima del nome #*/
 #logo {
     width: 200px;
-    /*specificando solo la  automanticamente si ridimensiona anche l'altezza*/
+    /*specificando solo la larghezza automanticamente si ridimensiona anche l'altezza*/
     padding-top: 40px;
     /*distanza dall'alto misurata con PixelRuler di PowerToys Windows*/
     padding-left: 8px;
@@ -28,7 +28,7 @@ h1 {
 
 .info-autore {
     margin-top: 2px;
-    /*sto gestendo lo spazio sopra*/
+    /*sto gestendo lo spazio sopra con h1*/
     color: rgb(139, 139, 139);
     font-weight: bold;
     /*grassetto*/
@@ -40,5 +40,15 @@ h1 {
 .info-autore-data {
     font-weight: normal;
     /*rimozione grassetto ereditato da info-autore*/
-    font-size: 10px;  
+    font-size: 10px;
+}
+
+#immagini img {
+    /*se non aggiungessi IMG starei impostando l’height sul contenitore #immagini, non sulle immagini vere e proprie. Questo non modifica l’altezza delle immagini, ma solo quella del div che le contiene*/
+    height: 220px;
+    /*imposto l'altezza delle immagini e automaticamente si adatterà la larghezza*/
+}
+
+#didascalia-immagini {
+    font-size: 10px;
 }
