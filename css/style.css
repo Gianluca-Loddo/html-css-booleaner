@@ -17,3 +17,11 @@ header {
     padding-left: 8px;
     /*distanza da sinistra*/
 }
+
+.info-autore {
+    
+    color: rgb(139, 139, 139);
+    font-weight: bold; /*grassetto*/
+    font-size: 14px;;
+    margin-bottom: 20px; /*quanta distanza devo lasciare sotto*/
+}
