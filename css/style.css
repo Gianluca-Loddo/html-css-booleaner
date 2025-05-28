@@ -54,10 +54,13 @@ h1 {
 }
 
 
-.box-testo{
-
+.testo-evidenziato {
+    background-color: yellow;
 }
 
-.testo-evidenziato{
-    background-color: yellow;
+ul {
+    padding-left: 16px;
+    /* i pallini non fanno parte del contenuto del <li>, ma sono un elemento di stile visuale posizionato all’esterno
+   Il contenuto del <li> parte dal bordo sinistro, impostando padding 0 Il pallino è ancora fuori dal contenuto, ma...
+   ... non ha più spazio per essere visualizzato!*/
 }
