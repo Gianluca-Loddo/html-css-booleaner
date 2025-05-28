@@ -18,10 +18,23 @@ header {
     /*distanza da sinistra*/
 }
 
+h1 {
+    margin-bottom: 0px; /*sto togliendo lo spazio sotto*/
+}
+
+
 .info-autore {
-    
+    margin-top: 0px; /*sto togliendo lo spazio sopra*/
     color: rgb(139, 139, 139);
-    font-weight: bold; /*grassetto*/
-    font-size: 14px;;
-    margin-bottom: 20px; /*quanta distanza devo lasciare sotto*/
+    font-weight: bold;
+    /*grassetto*/
+    font-size: 14px;
+  
+}
+
+.info-autore-data {
+    font-weight: normal;
+    /*rimozione grassetto ereditato da info-autore*/
+    font-size: 10px;
+    line-height: 1.0; /*interlinea con info-autore*/
 }
