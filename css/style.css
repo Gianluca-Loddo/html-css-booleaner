@@ -19,22 +19,26 @@ header {
 }
 
 h1 {
-    margin-bottom: 0px; /*sto togliendo lo spazio sotto*/
+    margin-bottom: 0px;
+    /*sto togliendo lo spazio sotto*/
+    line-height: 1.0;
+    /*interlinea andando a capo*/
+
 }
 
-
 .info-autore {
-    margin-top: 0px; /*sto togliendo lo spazio sopra*/
+    margin-top: 2px;
+    /*sto gestendo lo spazio sopra*/
     color: rgb(139, 139, 139);
     font-weight: bold;
     /*grassetto*/
     font-size: 14px;
-  
+    line-height: 0.9;
+    /*interlinea con info-autore-data*/
 }
 
 .info-autore-data {
     font-weight: normal;
     /*rimozione grassetto ereditato da info-autore*/
-    font-size: 10px;
-    line-height: 1.0; /*interlinea con info-autore*/
+    font-size: 10px;  
 }
