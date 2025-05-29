@@ -64,10 +64,22 @@ ul {
    ... non ha più spazio per essere visualizzato!*/
 }
 
-.head_table{
+table {
+    border-collapse: collapse;
+    /*per evitare che le celle della tabella abbiano uno spazio tra di loro*/
+}
 
+
+.head_table{
+    background-color: #20a9e5;
+    /*imposto il colore di sfondo della tabella*/
+    color: white;
+    /*imposto il colore del testo della tabella*/
+    font-weight: bold;
+    /*imposto il grassetto del testo della tabella*/
 }
 
 .riga_azzurra {
-    
+    background-color: #b1e5f2;
+    /*imposto il colore di sfondo della riga azzurra*/
 }
