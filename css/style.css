@@ -112,12 +112,18 @@ h4 {
     /*sto impostando lo stile per Foto_Monitor_1*/
     background-image: url(../img/monitor.jpg);
     background-size: cover;
-    width: 300px; /*larghezza del div*/
-    height: 200px; /*altezza del div*/
-    color: white; /*colore del testo all'interno del div*/
-    font-weight: bold; /*grassetto del testo all'interno del div*/
-    padding-left: 12px;  /* sposta il testo verso destra */
-    padding-top: 12px;   /* sposta il testo verso il basso della stessa distanza */
+    width: 300px;
+    /*larghezza del div*/
+    height: 200px;
+    /*altezza del div*/
+    color: white;
+    /*colore del testo all'interno del div*/
+    font-weight: bold;
+    /*grassetto del testo all'interno del div*/
+    padding-left: 12px;
+    /* sposta il testo verso destra */
+    padding-top: 12px;
+    /* sposta il testo verso il basso della stessa distanza */
 
 }
 
@@ -125,10 +131,16 @@ h4 {
     /*sto impostando lo stile per Foto_Monitor_2*/
     background-image: url(../img/graph.jpg);
     background-size: cover;
-    width: 300px; /*larghezza del div*/
-    height: 200px; /*altezza del div*/
-    color: white; /*colore del testo all'interno del div*/
-    font-weight: bold; /*grassetto del testo all'interno del div*/
-    padding-left: 12px;  /* sposta il testo verso destra */
-    padding-top: 12px;   /* sposta il testo verso il basso della stessa distanza */
+    width: 300px;
+    /*larghezza del div*/
+    height: 200px;
+    /*altezza del div*/
+    color: white;
+    /*colore del testo all'interno del div*/
+    font-weight: bold;
+    /*grassetto del testo all'interno del div*/
+    padding-left: 12px;
+    /* sposta il testo verso destra */
+    padding-top: 12px;
+    /* sposta il testo verso il basso della stessa distanza */
 }
