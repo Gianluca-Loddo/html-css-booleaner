@@ -67,10 +67,26 @@ ul {
 table {
     border-collapse: collapse;
     /*per evitare che le celle della tabella abbiano uno spazio tra di loro*/
+    text-align: left;
+    /*imposto l'allineamento del testo a sinistra*/
+}
+
+th:first-child,
+/*prende il primo <th> (intestazione) di ogni riga.*/
+td:first-child,
+/*prende il primo <td> (cella) di ogni riga del corpo.*/
+th:nth-child(2),
+/*prende il secondo <th> di ogni riga.*/
+td:nth-child(2)
+
+/*prende il secondo <td> di ogni riga.*/
+    {
+    width: 20%;
+    /*imposto la larghezza della prima e della seconda colonna della tabella AL 20% OGNUNA della larghezza totale rispetto al contenitore - Article*/
 }
 
 
-.head_table{
+.head_table {
     background-color: #20a9e5;
     /*imposto il colore di sfondo della tabella*/
     color: white;
